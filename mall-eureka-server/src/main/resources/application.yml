@@ -1,3 +1,13 @@
 spring:
   application:
     name: mall-eureka-server
+server:
+  port: 1111
+eureka:
+  client:
+    register-with-eureka: false #禁用它的客户端注册行为
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka
+  instance:
+    prefer-ip-address: true #优先使用IP地址方式进行注册服务
