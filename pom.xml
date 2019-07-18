@@ -23,6 +23,10 @@
     <modules>
         <module>mall-eureka-server</module>
         <module>mall-product-service</module>
+        <module>mall-order-service</module>
+        <module>mall-promotion-service</module>
+        <module>mall-content-service</module>
+        <module>mall-member-service</module>
     </modules>
 
     <dependencies>

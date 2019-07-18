@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mall-order-service
+server:
+  port: 2002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka
+  instance:
+    prefer-ip-address: true
